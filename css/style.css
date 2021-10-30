@@ -21,7 +21,7 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
   box-sizing: border-box;
 }
 .topo {
-	width: 858px;
+	max-width: 858px;
 }
 .topo figure img{
 	display: block;
@@ -35,9 +35,10 @@ body{
 	font-size: 25px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 div.pg-home{
-	width: 858px;
+	max-width: 858px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -71,11 +72,13 @@ footer button {
 }
 img:hover {
 	border: solid white 2px;
+	cursor: pointer;
 }
 ul {
 	display: flex;
 	margin-left: 15px;
-	
+	flex-wrap: wrap;
+	justify-content: center;
 }
 li figure {
 	margin: 0 15px ;
@@ -88,6 +91,7 @@ h2 {
 	position: relative;
 	left: 23px;
 	top: 22px;
+	border-radius: 100%;
 }
 .add-2 {
 	position: relative;
@@ -107,5 +111,6 @@ h2 {
 		display: inline;
 		margin-left: auto;
 		margin-right: auto;
+	
 	}
 }
