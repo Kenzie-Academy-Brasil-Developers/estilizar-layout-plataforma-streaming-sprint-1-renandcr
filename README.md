@@ -1,3 +1,4 @@
+Endereço da página - https://fluffy-engine-4e4c5f57.pages.github.io/
 # Entrega: Estilizar um Layout de uma plataforma de streaming
 
 Para esta entrega, você continuará prototipando um layout de uma plataforma de streaming, mas desta vez se concentrando em um layout com uma lista de usuários mostrado no mockup abaixo.
